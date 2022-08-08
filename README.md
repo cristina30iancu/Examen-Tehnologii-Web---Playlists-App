@@ -1,6 +1,11 @@
 # examen-web
 Examen Tehnologii web Iancu Cristina 1085, 7 feb 2022
 
-Am incarcat filmarea si pe youtube:  https://youtu.be/uu5_XVUocAE
-Link heroku va las si aici: https://examen-web-iancucristina1085.herokuapp.com/
-Tin sa precizez ca pentru a fi rulata pe local, pe langa instalarea dependintelor din server si client, in sequelize trebuie retrecut la sqlite si in server.js comentat ultimul server.get si initializarea clientului pg, iar in client trebuie pus portul de server 3000.
+Link heroku al aplicatiei: https://examen-web-iancucristina1085.herokuapp.com/
+
+Aplicatie WEB creată cu backend node.js si frontend React.js, ce contine 
+relatii de CRUD pentru playlist-uri si melodii. Un playlist poate detine 
+mai multe melodii, relatia fiind de unu la multi. Componentele vizuale
+sunt cele din Material UI.
+
+Baza de date pe local utilizeaza SQLite, iar pe heroku Postgres.
